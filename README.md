@@ -351,3 +351,15 @@ var isDead = LD.isOffline();
 // Flush all events to the web dashboard
 LD.flush();
 ```
+## Contributing
+To contribute change to this module, please fork the repository in GitHub and submit changes via a Pull request.
+
+To test changes to this module, open the source code for this project and start up a new server using `box server start`.  You can change which CFML engine is used via the environment variable LDM_CFML_SERVER_ENGINE prior to starting the server
+
+for example:
+
+``` bash
+SET LDM_CFML_SERVER_ENGINE=adobe@2023
+# or 
+SET LDM_CFML_SERVER_ENGINE=lucee@5
+```
